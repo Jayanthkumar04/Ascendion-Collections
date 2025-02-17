@@ -89,8 +89,7 @@ namespace ConAppGenericCollection
             */
 
 
-            Console.WriteLine("*************   DICTONARY     *************************");
-
+            Console.WriteLine("******************   DICTONARY     *************************");
             Dictionary<int, string> productList = new Dictionary<int, string>()
             {
                 {1,"digital camera" },
@@ -98,21 +97,59 @@ namespace ConAppGenericCollection
                 {9,"IPhone" },
                 {3,"Washing machine" }
             };
-
             foreach (var product in productList)
             {
                 Console.WriteLine(product);
             }
-
             Console.WriteLine("key \t\t value");
-
             foreach (var k in productList.Keys)
             {
                 Console.WriteLine(k + "\t" + productList[k]);
             }
-
             Console.WriteLine();
 
+
+            Console.WriteLine("****************HASHSET*******************");
+
+            HashSet<string> set = new HashSet<string>()
+            {
+                "amit",
+                "vijay",
+                "nithin",
+                "amit",
+                "gauri"
+            };
+
+            Console.WriteLine("no of elements in hashset\t"+set.Count);
+
+            foreach(string s in set)
+            {
+                Console.WriteLine(s);
+            }
+
+
+            Console.WriteLine("******* hashset methods ***************");
+
+            HashSet<int> set1 = new HashSet<int> { 1, 2, 3, 5 };
+
+            HashSet<int> set2 = new HashSet<int> { 3, 4, 5 };
+
+            //UNION OF TWO SETS
+            set1.Union(set2);
+
+            Console.WriteLine("after union: "+string.Join(", ",set1));
+
+            //INTERSECTION OF TWO SETS
+
+            set1.IntersectWith(new HashSet<int> { 3, 5 });
+            Console.WriteLine("AFTER intersection "+string.Join(", ",set1));
+
+            //diff of sets
+            set1.ExceptWith(new HashSet<int> { 5 });
+
+            Console.WriteLine("after difference: "+string.Join(", ",set1));
+
+            Console.ReadKey();
 
 
 
