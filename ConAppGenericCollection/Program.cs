@@ -10,6 +10,7 @@ namespace ConAppGenericCollection
     {
         static void Main(string[] args)
         {
+            /*
 
             List<string> list = new List<string>()
             {
@@ -56,6 +57,65 @@ namespace ConAppGenericCollection
             }
 
             Console.ReadKey();
+
+            */
+
+
+            /*
+
+            Console.WriteLine("*************SORTED LIST******************************");
+
+            SortedList<int, string> productList = new SortedList<int, string>()
+            {
+                {1,"digital camera" },
+                {2,"ear phones" },
+                {3,"IPhone" },
+                {4,"Washing machine" }
+            };
+
+            foreach(var product in productList)
+            {
+                Console.WriteLine(product);
+            }
+
+            Console.WriteLine("key \t\t value");
+
+            foreach(var k in productList.Keys)
+            {
+                Console.WriteLine(k + "\t" + productList[k]);
+            }
+
+            Console.WriteLine();
+            */
+
+
+            Console.WriteLine("*************   DICTONARY     *************************");
+
+            Dictionary<int, string> productList = new Dictionary<int, string>()
+            {
+                {1,"digital camera" },
+                {11,"ear phones" },
+                {9,"IPhone" },
+                {3,"Washing machine" }
+            };
+
+            foreach (var product in productList)
+            {
+                Console.WriteLine(product);
+            }
+
+            Console.WriteLine("key \t\t value");
+
+            foreach (var k in productList.Keys)
+            {
+                Console.WriteLine(k + "\t" + productList[k]);
+            }
+
+            Console.WriteLine();
+
+
+
+
         }
     }
 }
