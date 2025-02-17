@@ -24,6 +24,8 @@ namespace GenericClasses2
 
             ourGen2.Display();
 
+            
+
         }
     }
 }

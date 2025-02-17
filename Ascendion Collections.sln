@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClassess", "GenericC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericClasses2", "GenericClasses2\GenericClasses2.csproj", "{E85CDDAD-F9ED-4CC2-8083-1A6E8CD4F4C3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConAppGenericCollection", "ConAppGenericCollection\ConAppGenericCollection.csproj", "{059A88A1-C2BB-44F8-8A88-B7DD6A5A4783}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{E85CDDAD-F9ED-4CC2-8083-1A6E8CD4F4C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E85CDDAD-F9ED-4CC2-8083-1A6E8CD4F4C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E85CDDAD-F9ED-4CC2-8083-1A6E8CD4F4C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{059A88A1-C2BB-44F8-8A88-B7DD6A5A4783}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{059A88A1-C2BB-44F8-8A88-B7DD6A5A4783}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{059A88A1-C2BB-44F8-8A88-B7DD6A5A4783}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{059A88A1-C2BB-44F8-8A88-B7DD6A5A4783}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
