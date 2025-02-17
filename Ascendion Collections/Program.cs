@@ -38,6 +38,58 @@ namespace Ascendion_Collections
                 Console.WriteLine(item);
             }
 
+            al.Add("training");
+
+            Console.WriteLine("no of elements in the arrayList:\t " + al.Count);
+
+            Console.WriteLine("capacity of arraylist\t" + al.Capacity);
+
+            Console.WriteLine("**************elements of arraylist*******************");
+
+            foreach (var item in al)
+            {
+                Console.WriteLine(item);
+            }
+
+            al.Add("six");al.Add("seven");
+
+            Console.WriteLine("no of elements in the arrayList:\t " + al.Count);
+
+            Console.WriteLine("capacity of arraylist\t" + al.Capacity);
+
+            Console.WriteLine("**************elements of arraylist*******************");
+
+            foreach (var item in al)
+            {
+                Console.WriteLine(item);
+            }
+
+            al.Add("eight");
+
+            Console.WriteLine("no of elements in the arrayList:\t " + al.Count);
+
+            Console.WriteLine("capacity of arraylist\t" + al.Capacity);
+
+            Console.WriteLine("**************elements of arraylist*******************");
+
+            foreach (var item in al)
+            {
+                Console.WriteLine(item);
+            }
+
+            al.Add("nine");
+
+            Console.WriteLine("no of elements in the arrayList:\t " + al.Count);
+
+            Console.WriteLine("capacity of arraylist\t" + al.Capacity);
+
+            Console.WriteLine("**************elements of arraylist*******************");
+
+            foreach (var item in al)
+            {
+                Console.WriteLine(item);
+            }
+
             Console.ReadKey();
 
         }
