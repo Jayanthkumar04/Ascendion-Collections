@@ -88,7 +88,7 @@ namespace ConAppGenericCollection
             Console.WriteLine();
             */
 
-
+            //DICTONARY IS SIMILAR TO HASHTABLE WITHOUT GENERICS
             Console.WriteLine("******************   DICTONARY     *************************");
             Dictionary<int, string> productList = new Dictionary<int, string>()
             {
@@ -135,9 +135,9 @@ namespace ConAppGenericCollection
             HashSet<int> set2 = new HashSet<int> { 3, 4, 5 };
 
             //UNION OF TWO SETS
-            set1.Union(set2);
+            HashSet<int> set3 = new HashSet<int>( set1.Union(set2));
 
-            Console.WriteLine("after union: "+string.Join(", ",set1));
+            Console.WriteLine("after union: "+string.Join(", ",set3));
 
             //INTERSECTION OF TWO SETS
 

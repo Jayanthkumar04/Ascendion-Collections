@@ -52,6 +52,7 @@ namespace Hashtablee
             Console.WriteLine("stored valued count \t" + ht2.Count);
 
             Console.WriteLine("keys");
+
             foreach (var k in ht2.Keys)
             {
                 Console.WriteLine(k);
